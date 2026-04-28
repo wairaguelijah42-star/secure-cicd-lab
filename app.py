@@ -4,7 +4,7 @@ def main():
     secret = os.getenv("secret = "APP_SECRET")
     
     if secret:
-        print(f"Secret loaded securely: {secret[:3]}***")
+        print(f"Secret loaded securely")
     else:
         print("No secret found")
 
