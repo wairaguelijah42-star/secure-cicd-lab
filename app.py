@@ -1,7 +1,7 @@
 import os
 
 def main():
-    secret = os.getenv("secret = "APP_SECRET")
+    secret = os.getenv( "APP_SECRET")
     
     if secret:
         print(f"Secret loaded securely")
